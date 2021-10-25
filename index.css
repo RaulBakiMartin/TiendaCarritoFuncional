@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: medium; 
+}
+.store{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: ;
+}
+a:link, a:visited, a:active {
+    text-decoration:none;
+    --main-color: black;
+    --sec:white;
+    
+}
+.linknav,navItem{
+    text-decoration:none;
+    color: white;
+    font-size: 30px;
+}
+.linknav:hover{
+    color: greenyellow;
+}
+nav{
+    background-color: black;
+    color: white;
+    width: 99vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-right: 90px;
+    text-decoration: none;
+}
+.navItem,a{
+    font-family: 'Creepster';
+    font-size: larger;
+}
+.navItemCenter{
+    font-family: 'Creepster';
+    
+}
+header{
+    width: 99vw;
+    height: 75vh;
+}
+.espacio{
+    background-color: blue;
+    height: 400px;
+
+}
+.publi{
+    width: 99vw;
+    height: 15vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    font-family: 'Creepster';
+}
+h4,h5{
+    font-size: x-large;
+    font-family: 'Creepster';
+}
+.productos{
+    background-color: black;
+    width: 99vw;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around
+}
+.btn-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+}
+.list-group-item{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+button{
+    width: 80%;
+}
+.card-title{
+    display: flex;
+    flex-direction: row;
+    
+}
+.group{
+    display: flex;
+    flex-direction: row;
+
+}
+.shopping-cart{
+padding-top: 50px;
+background-color: black;
+color: white;
+}
+#carro{
+    width: 60%;
+    padding-bottom: 50px;
+}
+#compra{
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 1%;
+}
